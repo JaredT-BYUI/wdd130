@@ -1,0 +1,40 @@
+body{
+    margin: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: #58C1DB;
+    color: #2D3319;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.logo{
+    padding: 1em;
+    max-width: 100px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #2D3319;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+nav a:hover{
+    cursor: pointer;
+    background-color: #2D3319;
+    color: #58C1DB;
+}
+
+#hero-img{
+    max-width: 300px;
+}
