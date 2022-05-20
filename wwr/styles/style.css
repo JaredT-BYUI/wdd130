@@ -45,6 +45,7 @@ nav a:hover{
 #hero-img{
     margin: 0 auto;
     display: block;
+    margin-top: 20px;
 }
 
 h1, h4, .button-box{
@@ -60,14 +61,35 @@ main{
     display: grid;
     /* grid-template-rows: 1fr 20px 20px; */
     justify-items: center;
+    margin-top: 20px;
 }
 
 .msg{
     grid-column: 1/4;
-    justify-self: center;
+    justify-self: stretch;
+    background-color: #58C1DB;
+    line-height: 1.5em;
+    text-align: center;
 }
 
 footer{
     display: grid;
     grid-template-columns: repeat(6,1fr);
+    text-decoration: none;
+    background-color: #58C1DB;
+    justify-self: center;
+}
+
+footer a:hover{
+    cursor: pointer;
+    background-color: #2D3319;
+    color: #58C1DB;
+}
+
+#hero-msg{
+    grid-column: 1/4;
+    justify-self: center;
+    background-color: #58C1DB;
+    line-height: 1.5em;
+    text-align: center;
 }
