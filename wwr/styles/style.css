@@ -8,6 +8,91 @@ body{
     background-color: #336699;
 }
 
+.sub-button-box{
+    text-align: center;
+}
+
+.salmon-river{
+    display: grid;
+    padding-top: 50px;
+}
+.sr-title{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.sr-text-left{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.sr-img-right{
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.sr-img-left{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.sr-text-right{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.gray-canyon{
+    display: grid;
+    padding-top: 100px;
+}
+.gray-title{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.gray-text-left{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.gray-img-right{
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.gray-img-left{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.gray-text-right{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.grand-canyon{
+    display: grid;
+    padding-top: 100px;
+}
+.grand-title{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.grand-text-left{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.grand-img-right{
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.grand-img-left{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.grand-text-right{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+#sub-banner-img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
 header{
     color: #58C1DB;
     display: grid;
@@ -24,6 +109,11 @@ header{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px; 
+}
+.sub-item {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
 }
 
 #hero-box {
@@ -70,7 +160,7 @@ h1, h4, .button-box{
     text-align: center;
 }
 
-main{
+.home-grid{
     display: grid;
     grid-template-columns: repeat(9,1fr);
     grid-template-rows: repeat(9);
